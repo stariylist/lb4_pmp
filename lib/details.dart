@@ -10,10 +10,10 @@ class DetailsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text(person.fullName),
+          title: Text("Fullname: " + person.fullName),
         ),
         body: Center(
-          child: Text (person.position),
+          child: Text ("Position: " + person.position),
         )
     );
   }
